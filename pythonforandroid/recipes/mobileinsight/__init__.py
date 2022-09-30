@@ -9,7 +9,7 @@ import sh
 from pythonforandroid.logger import info, shprint, warning
 from pythonforandroid.toolchain import Recipe, current_directory
 
-LOCAL_DEBUG = False
+LOCAL_DEBUG = True
 
 
 class MobileInsightRecipe(Recipe):
